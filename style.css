@@ -1,0 +1,203 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply basic styles to the entire page */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.header .container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+/* ... Previous CSS code ... */
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    position: relative;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-info {
+    text-align: left;
+}
+
+.header-info h1 {
+    font-size: 2.5rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.header-image {
+    position: relative;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* This creates a circular frame */
+    overflow: hidden;
+    margin-right: 20px;
+    float: left; /* Float the image to the left */
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+.profile-info {
+    float: left;
+}
+
+/* ... Rest of the CSS code ... */
+
+
+/* Navigation styles */
+nav {
+    background-color: #fff;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+/* ... Previous CSS code ... */
+
+/* Project image styles */
+.project-image {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Project button styles */
+.project-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 15px;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* ... Previous CSS code ... */
+
+
+/* Section styles */
+section {
+    padding: 40px 0;
+}
+
+.gray-bg {
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.project {
+    margin-bottom: 40px;
+}
+
+.project h3 {
+    color: #007BFF;
+    font-size: 1.5rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header {
+        padding: 60px 0;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    nav ul li {
+        margin-right: 10px;
+    }
+
+    nav a {
+        font-size: 1rem;
+    }
+
+    .project h3 {
+        font-size: 1.3rem;
+    }
+}

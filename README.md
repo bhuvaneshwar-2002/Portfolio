@@ -42,6 +42,6 @@ You can access the live portfolio at [Portfolio URL](https://www.example.com).
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Author
-S. Bhuvaneshwar
-Email: bhuvaneshwar2002s@gmail.com
-GitHub: bhuvaneshwar-2002
+- S. Bhuvaneshwar
+- Email: bhuvaneshwar2002s@gmail.com
+- GitHub: bhuvaneshwar-2002
